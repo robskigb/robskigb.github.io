@@ -10,7 +10,7 @@
 	Comments on: Hello world!	</title>
 	<atom:link href="/hello-world/feed/" rel="self" type="application/rss+xml" />
 	<link>/hello-world/</link>
-	<description>Just another WordPress site</description>
+	<description>The website and witterings of Robin Smith.</description>
 	<lastBuildDate>Sat, 06 Mar 2021 13:00:11 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>

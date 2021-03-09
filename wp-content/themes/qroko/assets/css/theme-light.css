@@ -1,0 +1,16 @@
+/*----------------------------------------------------
+// Theme Light
+----------------------------------------------------*/
+
+:root {
+  --theme-tx-1: #000;
+  --theme-tx-2: #666;
+  --theme-tx-3: #D81E5B;
+  --theme-bg-1: #ffffff;
+  --theme-bg-2: #f2f2f2;
+  --theme-bg-3: #e4e4e4;
+  --theme-lk-1: #D81E5B;
+  --theme-lk-2: #0165d6;
+  --theme-lk-tx: #ffffff;
+  --theme-ac-1: #000;
+}
