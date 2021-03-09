@@ -229,11 +229,17 @@ hr {
 
 .app-header > .app-header-contents {
   display: flex;
-  justify-content: center;
-  flex-direction: column;
+  justify-content: space-between;
+  flex-direction: row;
   align-items: center;
   max-width: calc(var(--theme-site-width) + 16px * 2);
   margin: 0 auto;
+}
+
+.app-header-site {
+	display: flex;
+	flex-direction: column;
+	text-align:left;
 }
 
 .app-header-site-name {
@@ -249,9 +255,7 @@ hr {
   color: #fff;
   font-size: 0.8rem;
   line-height: 1.25;
-  margin-bottom: 1.5rem;
-  padding-bottom: 1.5rem;
-  border-bottom: 1px solid #fff;
+  font-weight: normal;
 }
 
 /*----------------------------------------------------
@@ -276,26 +280,12 @@ hr {
 
 .app-header-nav > li > a {
 	display: block;
-	background: #fff;
-	color: #2A2D43;
-	padding: 0.75rem;
-	border-radius: 0.5rem;
+	color: #fff;
 	text-decoration: none;
-	opacity: 0.95;
-	box-shadow: 2px 2px 8px 0px #00000030;
-	font-family: var(--alt-theme-font-sans);
-	text-transform: uppercase;
-	font-size: 1.25rem;
 }
 
 .app-header-nav > li > a:hover {
-	background: #fff;
-	color: #2A2D43;
-	opacity: 1;
-	box-shadow: 12px 12px 8px 0px #00000030;
-	top: -2px;
-	position: relative;
-	transition: all 1s ease 0s;
+	text-decoration: underline;
 }
 
 /*----------------------------------------------------
